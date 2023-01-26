@@ -1,0 +1,26 @@
+###
+
+POST http://localhost:5000/api/request-otp
+Content-Type: application/json
+
+{ "phone": "ENTER YOUR NUMBER" }
+
+###
+
+POST http://localhost:5000/api/verify-otp
+Content-Type: application/json
+
+{
+  "phone": "ENTER YOUR NUMBER",
+  "otp": "ENTER YOUR OTP"
+}
+
+
+
+
+
+
+
+
+
+
